@@ -1,0 +1,82 @@
+.top-header {
+    width: 100%;
+    max-height: 50px;
+    background: #0eaf8c;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.brand {
+    justify-self: center;
+}
+
+.brand h1 {
+    color: #fff;
+}
+
+.contact-area {
+    justify-self: center;
+}
+
+.contact-area a, .social-area a {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.social-area {
+    justify-self: center;
+}
+
+/******************* End Of Top Header *************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************** Media Quaries ****************************/
+@media only screen and (max-width: 1080px){
+    .brand h1 {
+        font-size: 23px;
+    }
+
+    .social-area a {
+        padding: 0 7px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top-header{
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+    }
+    .social-area {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 445px){
+
+    .top-header{
+        padding-bottom: 10px;
+    }
+    .contact-area {
+        display: none;
+    }
+    
+}
+
+/******************* End Of Top Header *************/
