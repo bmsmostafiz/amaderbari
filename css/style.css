@@ -31,6 +31,26 @@
     justify-self: center;
 }
 
+.social-area, .fa-facebook-f, .fa-twitter, .fa-youtube, .fa-linkedin-in{
+    transition: color .5s ease-in;
+}
+
+.social-area, .fa-facebook-f:hover{
+    color: #3b5998;
+}
+
+.social-area, .fa-twitter:hover{
+    color: #55acee;
+}
+
+.social-area, .fa-youtube:hover{
+    color: #cd201f;
+}
+
+.social-area, .fa-linkedin-in:hover{
+    color: #0077b5;
+}
+
 /******************* End Of Top Header *************/
 
 
